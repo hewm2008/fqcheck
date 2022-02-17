@@ -1,0 +1,69 @@
+fqcheck : fqcheck 
+
+1)  Introduction
+------------
+
+This software relies on two other library packages [zlib and gzstream]
+g++ > 4.9  is bester
+
+----------------------  zlib   infomation ----------------------------
+If  Lib [zlib] do not work
+you can download form this website and install it
+http://www.zlib.net/
+
+----------------------  gzstream  infomation ----------------------------
+If  Lib [gzstream] do not work
+you can download form this website and install it
+http://www.cs.unc.edu/Research/compgeom/gzstream/
+
+
+
+2) linux/Unix INSTALL
+--------------------------------------
+
+Just execute as follows :
+                         tar -zxvf  fqcheckXXX.tar.gz
+                         cd fqcheckXXX.tar.gz;
+                         make ; make clean
+                         ./bin/fqcheck
+
+#I had compiled and installed these two library packages [zlib and gzstream] on the linux X64 platform
+if Link do not work ,try Re-install these two  librarys and copy them to the  library Dir
+
+                     fqcheck-xx/include
+                     fqcheck-xx/lib
+
+
+
+3)  macOS  platform INSTALL
+
+you should  must  two  library [zlib and gzstream] and copy them to the corresponding library directory
+
+
+#step1 :Should must <b>re-install</b>  two  library [zlib and gzstream]
+                    see  [zlib and gzstream] website
+
+#step2  :  # Copy these two library into the corresponding library directory
+
+                    cp libz.a libz.so*      fqcheck-xx/lib
+                    cp libgzstream.a        fqcheck-xx/lib
+
+
+#step3  :
+
+sh make.sh # or [make && make clean]
+
+# if software can not find the htslib Path ,you can vim the make.sh  or  Makefile [-I -L]
+
+
+4) Contact
+email: hewm2008@gmail.com / hewm2008@qq.com
+join the QQ Group : 125293663
+
+
+
+######################swimming in the sky and flying in the sea ########################### ##
+
+
+
+

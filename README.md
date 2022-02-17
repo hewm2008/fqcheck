@@ -63,9 +63,9 @@ Usage:fqcheck  -InFq1 <in.fq>  -OutStat1 <out.fqcheck>  [options]
 some stat file will ouput.  
 Also if the system has <b> gnuplot</b> and <b> convert</b> commands installed, the following pictures will be output
 
-![base.png](https://github.com/hewm2008/fqcheck/blob/main/Example/base.png)
+![base.png](https://github.com/hewm2008/fqcheck/blob/main/example/base.png)
 
-![qual.png](https://github.com/hewm2008/fqcheck/blob/main/Example/qual.png)
+![qual.png](https://github.com/hewm2008/fqcheck/blob/main/example/qual.png)
 
 ###  4) Discussing
 ------------
