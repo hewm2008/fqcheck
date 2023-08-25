@@ -5,7 +5,7 @@
 ------------
 The <b>new version</b> will be updated and maintained in <b>[hewm2008/fqcheck](https://github.com/hewm2008/fqcheck)</b>, please click below Link to download the latest version
 </br><p align="center"><b>[hewm2008/fqcheck](https://github.com/hewm2008/fqcheck)</b></p>
-<b> [Download](https://github.com/hewm2008/fqcheck/archive/v2.07.tar.gz) </b>
+<b> [Download](https://github.com/hewm2008/fqcheck/archive/v2.08.tar.gz) </b>
 
 For <b>linux/Unix </b> static
 </br>you can use the statically compiled programs <i>directly</i>
@@ -40,7 +40,7 @@ Usage:fqcheck  -InFq1 <in.fq>  -OutStat1 <out.fqcheck>  [options]
 		-Adapter1     <str>   Input adapters fa file
 		-Adapter2     <str>   Input adapters2 fa file
 
-		-help                 show this help[hewm2008 v2.07]
+		-help                 show this help[hewm2008 v2.08]
 
 ```
 
@@ -63,9 +63,9 @@ Usage:fqcheck  -InFq1 <in.fq>  -OutStat1 <out.fqcheck>  [options]
 some stat file will ouput.  
 Also if the system has <b> gnuplot</b> and <b> convert</b> commands installed, the following pictures will be output
 
-![base.png](https://github.com/hewm2008/fqcheck/blob/main/Example/base.png)
+![base.png](https://github.com/hewm2008/fqcheck/blob/main/example/base.png)
 
-![qual.png](https://github.com/hewm2008/fqcheck/blob/main/Example/qual.png)
+![qual.png](https://github.com/hewm2008/fqcheck/blob/main/example/qual.png)
 
 ###  4) Discussing
 ------------
