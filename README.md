@@ -21,13 +21,7 @@
 <li>C++17 required (for rapidgzip)</li>
 </ul>
 
-For <b>linux/Unix </b> static
-</br>you can use the statically compiled programs <i>directly</i>
-<pre>
-         chmod 755 ./bin/fqcheck
-        ./bin/fqcheck </pre>
-
-  </br> Just [make]  or [sh  make.sh ]  to compile this software.the final software can be found in the Dir <b>[bin/fqcheck]</b>
+Just <b>make</b> or <b>sh make.sh</b> to compile this software. The final binary can be found in <b>bin/fqcheck</b>
   </br> For <b>linux /Unix </b> and <b>macOS</b>
   <pre>
         tar -zxvf  fqcheckXXX.tar.gz
@@ -75,11 +69,7 @@ Usage:fqcheck  -InFq1 <in.fq>  -OutStat1 <out.fqcheck>  [options]
 ###  3) Results
 ------------
 some stat file will ouput.  
-Also if the system has <b> gnuplot</b> and <b> convert</b> commands installed, the following pictures will be output
-
-![base.png](example/base.png)
-
-![qual.png](example/qual.png)
+Also if the system has <b>gnuplot</b> and <b>convert</b> commands installed, base.png and qual.png will be output automatically
 
 ###  4) Discussing
 ------------
