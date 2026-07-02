@@ -69,7 +69,11 @@ Usage:fqcheck  -InFq1 <in.fq>  -OutStat1 <out.fqcheck>  [options]
 ###  3) Results
 ------------
 some stat file will ouput.  
-Also if the system has <b>gnuplot</b> and <b>convert</b> commands installed, base.png and qual.png will be output automatically
+Also if the system has <b>gnuplot</b> and <b>convert</b> commands installed, the following pictures will be output
+
+![base.png](example/base.png)
+
+![qual.png](example/qual.png)
 
 ###  4) Discussing
 ------------
