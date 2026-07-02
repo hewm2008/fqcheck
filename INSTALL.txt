@@ -1,0 +1,51 @@
+fqcheck v2.09 : Fast FASTQ quality control and statistics tool
+
+1)  Introduction
+------------
+
+This software relies on these library packages:
+  - zlib (http://www.zlib.net/)
+  - gzstream (http://www.cs.unc.edu/Research/compgeom/gzstream/)
+  - rapidgzip — parallel gzip decompressor (included under src/rapidgzip/)
+  - OpenMP (for parallel PE processing)
+g++ >= 7 (C++17) recommended
+
+2) linux/Unix INSTALL
+--------------------------------------
+
+Just execute as follows :
+                         tar -zxvf  fqcheckXXX.tar.gz
+                         cd fqcheckXXX;
+                         make ; make clean
+                         ./bin/fqcheck
+
+# Pre-compiled libraries [zlib and gzstream] are included under lib/ and include/
+# rapidgzip source is included under src/rapidgzip/
+# If linking fails, try re-installing zlib and copy to:
+                     fqcheck-xx/include
+                     fqcheck-xx/lib
+
+3)  macOS  platform INSTALL
+
+You will need to install three libraries: zlib, gzstream, and rapidgzip.
+
+#step1 : Install zlib and gzstream (see their websites)
+#step2  : Copy libraries into the corresponding directories:
+                    cp libz.a libz.so*      fqcheck-xx/lib
+                    cp libgzstream.a        fqcheck-xx/lib
+#step3 : rapidgzip is included as source under src/rapidgzip/ and compiled alongside fqcheck
+#step4 :
+                    make && make clean
+                    ./bin/fqcheck
+
+4) Contact
+email: hewm2008@gmail.com / hewm2008@qq.com
+join the QQ Group : 125293663
+
+
+
+######################swimming in the sky and flying in the sea ########################### ##
+
+
+
+

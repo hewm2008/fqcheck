@@ -1,0 +1,9 @@
+bin/fqcheck
+*.o
+*.a
+*.fqcheck
+*.adapter.list.gz
+*.adapter.stat
+example/base.*
+example/qual.*
+example/www_*
